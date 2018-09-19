@@ -22,7 +22,7 @@
               <h3 class="panel-title center"><strong>Guessing Game</strong> - Let's play?</h3>
             </div>
             <div class="panel-body">
-                <form class="needs-validation" action="game-flex.php" method="POST">
+                <form class="needs-validation" action="game.php" method="POST">
                 <!--form class="" data-example-id="simple-input-groups"--> 
                     <div class="input-group"> 
                         <span class="input-group-addon" id="basic-addon1">X</span> 
