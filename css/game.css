@@ -1,0 +1,102 @@
+html,
+body {
+  height: 100%;
+}
+
+.navbar {
+  background-color: #226fe2;
+}
+
+.navbar h2 {
+  font-size: 25px;
+  margin: 0px;
+  color: #fff;
+}
+
+.navbar i {
+  font-size: 25px;
+  margin-right: 10px;
+  color: #fff;
+}
+.navbar li a {
+  font-size: 18px;
+  color: #fff !important;
+  transition: 0.3s;
+}
+.navbar li a:hover {
+  background-color: #226fe2 !important;
+  color: #43caf3 !important;
+  transition: 0.3s;
+}
+
+.gameboard {
+  margin-top: 20px !important;
+  object-fit: fill;
+  width: 95%;
+  height: calc(100% - 100px);
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 0.5em;
+}
+
+.square {
+  min-width: 25px;
+  min-height: 25px;
+  margin: 0;
+  height: 100%;
+  position: relative;
+  text-align: center !important;
+  font-size: 30px !important;
+  background-color: #43caf3;
+  color: white;
+  border-radius: 5px;
+}
+
+.square p {
+  font: 0.7em sans-serif;
+  position: absolute;
+  margin: 5px;
+}
+
+.square:hover {
+  background-color: #226fe2;
+  transition: 500ms;
+}
+
+.info {
+  display: none;
+}
+
+.message {
+  height: 250px;
+  width: 400px;
+  position: absolute;
+  display: none;
+  top: calc(50% - 125px);
+  left: calc(50% - 200px);
+  background-color: #226fe2 !important;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 60px;
+  transition: 1s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.35), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.message .btn {
+  margin: 20px;
+}
+
+#winner i {
+  position: absolute;
+  margin-top: 24%;
+  margin-left: 12%;
+  display: none;
+  transition: 500ms;
+}
+
+#youlose {
+  font-size: 32px;
+}

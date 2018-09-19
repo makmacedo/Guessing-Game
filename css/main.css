@@ -1,0 +1,36 @@
+html {
+  background: url(img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background-color: #fff0 !important;
+  height: 100%;
+}
+
+.start-box {
+  margin-top: 150px;
+  max-width: 500px;
+}
+
+.start-box .author {
+  margin: 15px 0 0 0;
+  text-align: center;
+}
+
+.start-box a i {
+  margin: 0 10px;
+  font-size: 18px;
+  color: #0077b5;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 24px !important;
+}
